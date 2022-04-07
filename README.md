@@ -12,7 +12,11 @@ See here: https://github.com/pandoc/pandoc-action-example/tree/master
 I've taken the advanced task in the example workflow and copied it in to the workflow in this repo.
 
 Running that workflow is able to generate an artifact (the PDF) which can be downloaded from here:
+https://github.com/JohnRyland/Documentation/suites/5971292119/artifacts/205389030
+
+previous version here:
 https://github.com/JohnRyland/Documentation/suites/5970774333/artifacts/205358976
+
 
 This artifact will expire soon. It seems that the available artifacts can be queried with a github API:
 
