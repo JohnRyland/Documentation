@@ -5,11 +5,19 @@ Documentation system using markdown and converting to PDF
 
 Experimental repo to test ideas of using markdown to create documentation files and using pandoc and templates to generate PDF files.
 
+Something like or perhaps exactly like this:
+https://github.com/Wandmalfarbe/pandoc-latex-template/
+
+
 The pandoc github has some examples of using github workflows to automate this inside github. I want to experiment with using this to generate the PDF and to then publish it perhaps back in to the repo.
 
 See here: https://github.com/pandoc/pandoc-action-example/tree/master
 
-I've taken the advanced task in the example workflow and copied it in to the workflow in this repo.
+Also the pandoc-latex-template repo has a workflow, however it doesn't use docker to get pandoc, it instead downloads and extracts it:
+https://github.com/Wandmalfarbe/pandoc-latex-template/blob/master/.github/workflows/build-examples.yml
+
+
+I've taken the advanced task in the pandoc-action-example repo's example workflow and copied it in to the workflow in this repo.
 
 Running that workflow is able to generate an artifact (the PDF) which can be downloaded from here:
 https://github.com/JohnRyland/Documentation/suites/5971292119/artifacts/205389030
