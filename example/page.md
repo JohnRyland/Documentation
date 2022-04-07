@@ -26,39 +26,5 @@ quis lectus elementum fermentum.
 
 # Formatting
 
-## Blocks
-
-\begin{noteblock}
-  Note
-\end{noteblock}
-
-\begin{tipblock}
-  Tip
-\end{tipblock}
-
-\begin{warningblock}
-  Warning
-\end{warningblock}
-
-\begin{cautionblock}
-  Caution
-\end{cautionblock}
-
-\begin{importantblock}
-  Important
-\end{importantblock}
-
 ## Colors
-
-\begin{cyanbox}
-  Cyan box
-\end{cyanbox}
-
-\begin{orangebox}
-  Orange box
-\end{orangebox}
-
-\begin{redbox}
-  Red box
-\end{redbox}
 
