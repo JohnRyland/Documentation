@@ -21,6 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          cd example
+          make
+
       - name: create file list
         id: files_list
         run: |
