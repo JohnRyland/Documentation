@@ -21,9 +21,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
+      - uses: nikeee/setup-pandoc@v1
+        with: |
           cd example
           make
 
