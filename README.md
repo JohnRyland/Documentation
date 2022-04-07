@@ -7,6 +7,9 @@ Experimental repo to test ideas of using markdown to create documentation files 
 
 The pandoc github has some examples of using github workflows to automate this inside github. I want to experiment with using this to generate the PDF and to then publish it perhaps back in to the repo.
 
+See here: https://github.com/pandoc/pandoc-action-example/tree/master
+
+
 This is going to be a playground for ideas about project documentation.
 
 I might also experiment with doing something similar with doxygen comments in code and seeing how this can be integrated with github workflows.
