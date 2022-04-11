@@ -4,10 +4,7 @@ subtitle:    "subtitle of thing"
 copyright1:  Copyright (C) 2022, John Ryland.
 copyright2:  All rights reserved.
 date:        "7th April 2022"
-page-background: "example/background.pdf"
-titlepage: true,
-titlepage-rule-color: "360049"
-titlepage-background: "example/background.pdf"
+background:  "background.pdf"
 ---
 
 
