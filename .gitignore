@@ -1,3 +1,8 @@
+# Generated
+.build
+.modules
+bin
+
 # Prerequisites
 *.d
 
