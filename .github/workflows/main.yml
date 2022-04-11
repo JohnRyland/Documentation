@@ -31,17 +31,13 @@ jobs:
           echo "::set-output name=files::$(printf '"%s" ' *.md)"
 
       - uses: docker://pandoc/latex:2.9
-        with:
-          args: --template example/template.tex example/page.md -o output/page.pdf
-
-      - uses: docker://pandoc/latex:2.9
-        with:
-          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
-          
+      - run: |
+          make
+         
       - uses: actions/upload-artifact@main
         with:
-          name: output
-          path: output
+          name: docs
+          path: docs
 
   # This workflow contains a single job called "build"
   build:
