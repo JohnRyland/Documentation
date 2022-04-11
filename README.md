@@ -1,10 +1,8 @@
 ---
 title:       Documentation System
 subtitle:    Examples using markdown to generate PDFs
-
 copyright1:  Copyright (C) 2022, John Ryland.
 copyright2:  All rights reserved.
-
 date:        7th April 2022
 contact:     jryland@gmail.com
 background:  background.pdf
