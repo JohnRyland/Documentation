@@ -26,13 +26,14 @@ jobs:
         run: |
           echo "Lorem ipsum" > lorem_1.md  # create two example files
           echo "dolor sit amet" > lorem_2.md
-          mkdir output  # create output dir
-          mkdir docs
+          mkdir -p output  # create output dir
+          mkdir -p docs
           # this will also include README.md
           echo "::set-output name=files::$(printf '"%s" ' *.md)"
 
       - uses: docker://pandoc/latex:2.9
         with:
+          entrypoint: pandoc
           args: -f markdown_mmd --template template.tex README.md -o docs/README.pdf
 
       - uses: actions/upload-artifact@main
