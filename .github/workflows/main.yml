@@ -27,6 +27,7 @@ jobs:
           echo "Lorem ipsum" > lorem_1.md  # create two example files
           echo "dolor sit amet" > lorem_2.md
           mkdir output  # create output dir
+          mkdir docs
           # this will also include README.md
           echo "::set-output name=files::$(printf '"%s" ' *.md)"
 
