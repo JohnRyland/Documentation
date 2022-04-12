@@ -32,7 +32,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --template template.tex README.md -o docs/README.pdf
+          args: -f markdown_mmd --template template.tex README.md -o docs/README.pdf
 
       - uses: actions/upload-artifact@main
         with:
